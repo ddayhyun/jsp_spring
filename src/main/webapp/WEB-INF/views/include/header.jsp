@@ -293,7 +293,7 @@
                       <a href="#" class="btn btn-default btn-flat">Profile</a>
                     </div>
                     <div class="pull-right">
-                      <a href="/user/logout.sinc" class="btn btn-default btn-flat">Sign out</a>
+                      <a href="/user/logout.multicampus" class="btn btn-default btn-flat">Sign out</a>
                     </div>
                   </li>
                 </ul>
@@ -363,11 +363,16 @@
               <a href="#">
                 <i class="fa fa-dashboard"></i> <span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>
               </a>
+
               <ul class="treeview-menu">
-               
+                <%-- 
+                <li><a href="/board/listAll"><i class="fa fa-circle-o"></i> Dashboard v1</a></li> 
+                <li><a href="/board/listCri"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
+                --%>
                 <li><a href="/board/list.multicampus"><i class="fa fa-clipboard" aria-hidden="true"></i>전체게시글</a></li>
                 <li><a href="/board/myPage.multicampus?id=${loginUser.id}"><i class="fa fa-circle-o"></i> 내가 작성한 게시글</a></li>
               </ul>
+
             </li>
             <li class="treeview">
               <a href="#">

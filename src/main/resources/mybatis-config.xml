@@ -3,7 +3,11 @@
 
 <configuration>
     <typeAliases>
+    <!-- user -->
         <typeAlias alias="userRequestDTO" type="com.example.jsp_spring.user.domain.UserRequestDTO" />
         <typeAlias alias="userResponseDTO"  type="com.example.jsp_spring.user.domain.UserResponseDTO" />
+    <!-- board -->
+        <typeAlias alias="boardResponseDTO"  type="com.example.jsp_spring.board.domain.BoardResponseDTO" />
+        <typeAlias alias="userBoardResponseDTO"  type="com.example.demo.board.domain.UserBoardResponseDTO" />
     </typeAliases>
 </configuration>
